@@ -1,0 +1,44 @@
+/* Universal Selector - select all the elements */
+* {
+  color: purple;
+}
+
+/* Type Selectors - select all elements of given element type */
+div {
+  color: black;
+}
+
+/* Class Selectors - select all elements with the given class */
+.alert-text {
+  color: red;
+}
+
+/* ID Selectors - select all elements with the given id */
+#title {
+  background-color: red;
+}
+
+/* Grouping Selectors - select two or more selectors to group */
+.read,
+.unread {
+  color: blue;
+  background-color: yellow;
+}
+
+/* Chaining Selectors - to chain them as a list without any separtion */
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}
+
+/* Descendant Combinator */
+.ancestor .contents {
+  color: red;
+}
+
+p {
+  font-family: ;
+}
